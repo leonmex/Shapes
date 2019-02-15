@@ -1,0 +1,29 @@
+{
+    "name": "urbansport/graphic-editor",
+    "description": "Noel Barrera test code for USC",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Noel Barrera",
+            "email": "nbgsys@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "behat/behat": "^3.5",
+        "phpunit/phpunit": "^7"
+    },
+    "config": {
+	"bin-dir": "bin/"
+    },
+    "autoload": {
+        "psr-4": {
+            "GraphicEditor\\": "app/"
+        },
+        "psr-0": {
+            "GraphicEditor\\": "app/"
+        }
+    }
+}

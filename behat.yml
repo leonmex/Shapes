@@ -1,0 +1,11 @@
+default:
+    formatters:
+        pretty:
+            verbose: true
+            paths: false
+            snippets: false
+
+    suites:
+        default:
+            contexts:
+                - ShapesContext
